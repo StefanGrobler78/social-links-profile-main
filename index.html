@@ -3,28 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:wght@100..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="./css/style.css">
   
   <title>Frontend Mentor | Social links profile</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
+  <main>
+  
+    <div class="sl-card__container">
+      <img src="./assets/images/avatar-jessica.jpeg" alt="Jessica Randall">
+      <h1 class="sl-card__title">Jessica Randall</h1>
+      <p class="sl-card__location">London, United Kingdom</p>
+      <p class="sl-card__subtitle">"Front-end developer and avid reader"</p>
+      <div class="sl__list-container">
+        <ul class="sl__list-element">
+          <li class="sl__list-item"><a class="sl__list-link" href="#">GitHub</a></li>
+          <li class="sl__list-item"><a class="sl__list-link" href="#">Front-end Mentor</a></li>
+          <li class="sl__list-item"><a class="sl__list-link" href="#">LinkedIn</a></li>
+          <li class="sl__list-item"><a class="sl__list-link" href="#">Twitter</a></li>
+          <li class="sl__list-item"><a class="sl__list-link" href="#">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
 
-  Jessica Randall
-  London, United Kingdom
-  "Front-end developer and avid reader."
-
-  GitHub
-  Frontend Mentor
-  LinkedIn
-  Twitter
-  Instagram
+  </main>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
